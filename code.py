@@ -81,7 +81,7 @@ def vending_machine():
         
         # asks if the user wants to buy more or get their change back
         while True:
-            choice = input("Buy more (y) or get change back 👎? ")
+            choice = input("Buy more (y) or get change back (n)? ")
             if choice == 'y':
                 # continues to the next purchase, keeping the remaining balance
                 break
